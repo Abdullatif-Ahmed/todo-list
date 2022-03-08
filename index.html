@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Todo app</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Mukta:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200&family=Rubik:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="dark-mode">
+    <header></header>
+    <section class="main">
+      <div class="container">
+        <div class="todo-container">
+          <div class="todo-heading">
+            <h1>TODO</h1>
+            <button id="mode-toggle">
+              <img src="" alt="" />
+            </button>
+          </div>
+          <div class="todo-inputGroup">
+            <button id="add-todo"></button>
+            <input
+              type="text"
+              id="todo-input"
+              placeholder="Create a new todo... "
+            />
+          </div>
+          <div class="todos-container">
+            <div class="todo-container-bottom">
+              <div class="item-left-container">
+                <span class="item-left">0</span> items left
+              </div>
+              <div class="todo-filters">
+                <button id="show-all" class="active">All</button>
+                <button id="show-active">Active</button>
+                <button id="show-completed">Completed</button>
+              </div>
+              <button id="clear-completed">Clear Completed</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
