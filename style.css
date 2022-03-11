@@ -89,7 +89,7 @@ header {
   padding-left: 35px;
   position: relative;
   border-radius: 4px;
-  -webkit-border-radius: 40px;
+  -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   margin-bottom: 15px;
 }
